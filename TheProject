@@ -1,0 +1,22 @@
+Import.Jframe, Import.Canvas; Get.folder/desktop.("TheProject");
+static final print.("It's Alive");
+new public static var.(start);
+new public static var.(close);
+new var.(WIDTH);
+new var.(HEIGHT);
+new var.(PIX);
+new static void var.("Running");
+
+  start{
+set.Running = true;
+  (Get Jframe); Jframe = WIDTH * HEIGHT;
+  Jframe = PIX / HEIGHT;
+Jframe = #949494;
+Canvas.get("TheProject".folder/desktop);
+  }
+  
+  close{
+
+    (Running = true), else
+    (Running = false, close);
+    }
